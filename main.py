@@ -2,7 +2,7 @@ import requests
 import time
 
 class my_hhu:
-    account = "1806030126"  # 学号
+    account = "xxxxxxx"  # 学号
     wid = "A335B048C8456F75E0538101600A6A04"  # 个人wid
     daka_save_url = "http://form.hhu.edu.cn/pdc/formDesignApi/dataFormSave?wid="+ wid + "&userId=" + account
 
@@ -19,15 +19,15 @@ class my_hhu:
             post_data = {
                 'DATETIME_CYCLE': curr_date,
                 'XGH_336526': self.account,
-                'XM_1474': '李佳鹏',  # 姓名
-                'SFZJH_859173': '320721199904082017',  # 身份证号
+                'XM_1474': 'xxx',  # 姓名
+                'SFZJH_859173': 'xxxxxxxxxxxxx',  # 身份证号
                 'SELECT_941320': '计信院',  # 学院
                 'SELECT_459666': '2018级',  # 年级
                 'SELECT_814855': '电信',  # 专业
                 'SELECT_525884': '电信18_1',  # 班级
-                'SELECT_125597': '江宁校区教学区12舍',  # 宿舍楼
+                'SELECT_125597': '江宁校区教学区xx舍',  # 宿舍楼
                 'TEXT_950231': '312',  # 宿舍号
-                'TEXT_937296': '15850658969',  # 手机号码
+                'TEXT_937296': 'xxxxxx',  # 手机号码
                 'RADIO_853789': '否',
                 'RADIO_43840': '否',
                 'RADIO_579935': '健康',
